@@ -1,0 +1,38 @@
+.footer {
+    background: var(--clr-grey-1);
+    text-align: center;
+    padding:9.6rem 0;
+  
+  &-links,
+  &-icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+  }
+  &-link {
+    color: var(--clr-white);
+    text-transform: capitalize;
+    font-size: 1.8rem;
+    margin-right: 1rem;
+    letter-spacing: var(--spacing);
+    transition: var(--transition);
+  }
+  &-link:hover {
+    color: var(--clr-primary-5);
+  }
+  &-icon {
+    font-size: 2rem;
+    margin-right: 1rem;
+    color: var(--clr-primary-8);
+    transition: var(--transition);
+  }
+  &-icon:hover {
+    color: var(--clr-primary-5);
+  }
+  .copyright {
+    text-transform: capitalize;
+    letter-spacing: var(--spacing);
+    color: var(--clr-white);
+  }
+}  

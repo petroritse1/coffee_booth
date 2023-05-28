@@ -1,0 +1,31 @@
+.heading__primary{
+    font-weight:500;
+    text-align: center;
+    font-size:3.2rem;
+    color:var(--clr-primary);
+    margin-bottom:3rem;
+    letter-spacing: var(--spacing);
+    @include device(small__tab){
+        font-size:5.4rem;
+        
+    }
+    
+     
+}
+.heading__title{
+    color:var(--clr-grey-1);
+    text-align: center;
+    font-size:3rem;
+    letter-spacing:var(--spacing);
+    margin-bottom: 6.4rem;
+    // max-width:5rem;
+   
+};
+
+.heading__tetiary{
+    font-size:2.4rem;
+    letter-spacing:var(--spacing);
+    margin-bottom:2.4rem;
+    
+}
+ 

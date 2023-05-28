@@ -1,0 +1,51 @@
+.gallery{
+    @media screen and (min-width: 768px) {
+          display: flex;
+          flex-wrap: wrap;
+      }
+    &_imgbox{
+        position:relative;
+        background: var(--clr-primary-5);
+        @media screen and (min-width: 768px) {
+            
+            
+              flex: 0 0 50%;
+            
+          }
+          @media screen and (min-width: 992px) {
+            & {
+              flex: 0 0 25%;
+            }
+           
+            }
+            
+            
+        }
+        &_img{
+            width:100%;
+            display:block;
+       height:27rem;
+       object-fit:cover;
+         
+    }
+    &-icon{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        font-size: 4rem;
+        transform: translate(-50%, -50%);
+        color: var(--clr-white);
+        opacity: 0;
+        cursor: pointer;
+        transition: .9s all;
+
+    }
+    &_imgbox:hover &_img{
+        opacity:0.5;
+    }
+    &_imgbox:hover &-icon{
+        opacity:1;
+    }
+    
+    
+}

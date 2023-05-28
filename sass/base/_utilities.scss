@@ -1,0 +1,12 @@
+.color{
+    color:var(--clr-primary-5);
+}
+.center{
+    width:90vw;
+    max-width: 120rem;
+    margin:0 auto;
+    // @include device(desktop){
+    //     width:80vw;
+    // } 
+
+}

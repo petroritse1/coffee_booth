@@ -1,0 +1,52 @@
+.hero{
+    background:linear-gradient(rgb(44,174,186,0.7), rgba(0,0,0,0.6)),url(../img/main.jpeg) center/cover no-repeat;
+    min-height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    overflow: hidden;
+  
+    &__banner{
+        padding:0 3rem;
+        text-align:center;
+        color:var(--clr-white);
+        
+    };
+    &__text{
+        max-width:50rem;
+        margin:1rem auto;
+        font-size:1.4rem;
+        padding-top:2rem;
+        letter-spacing:var(--spacing);
+        @include device(small__tab){
+            font-size:1.6rem;
+        }
+
+    }
+    &__btn{
+        color: var(--clr-primary-5);
+        background-color:var(--clr-white);
+        letter-spacing: var(--spacing);
+        border:2px solid transparent;
+        font-size: 2.4rem;
+        padding:1.2rem 2.4rem;
+        transition: .7s all;
+        text-transform:uppercase;
+        cursor:pointer;
+        box-shadow:0 .1rem .4rem rgba(0,0,0,0.4);
+        width:auto;
+
+        &:hover,&:active{
+            
+            background-color:transparent;
+            border:solid 2px var(--clr-white);
+            color:var(--clr--white);
+        
+        }
+         
+    }
+
+
+
+
+}
