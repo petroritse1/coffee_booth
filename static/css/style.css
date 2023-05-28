@@ -475,7 +475,7 @@ li {
   width: 100%;
   background: var(--clr-white);
   box-shadow: var(--dark-shadow);
-  z-index: 2;
+  z-index: 12;
   /* 280px */
 }
 .nav-icons {
