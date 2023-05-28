@@ -5,8 +5,16 @@
     color:var(--clr-primary);
     margin-bottom:3rem;
     letter-spacing: var(--spacing);
+    @include device(phone){
+        font-size:5.2rem;
+        
+    }
     @include device(small__tab){
-        font-size:5.4rem;
+        font-size:6.4rem;
+        
+    }
+    @include device(big__tab){
+        font-size:6.4rem;
         
     }
     
@@ -15,7 +23,7 @@
 .heading__title{
     color:var(--clr-grey-1);
     text-align: center;
-    font-size:3rem;
+    font-size:3.2rem;
     letter-spacing:var(--spacing);
     margin-bottom: 6.4rem;
     // max-width:5rem;

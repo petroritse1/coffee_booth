@@ -91,16 +91,21 @@ li {
   margin-bottom: 3rem;
   letter-spacing: var(--spacing);
 }
+@media only screen and (min-width: 37.5em) {
+  .heading__primary {
+    font-size: 5.2rem;
+  }
+}
 @media only screen and (min-width: 57.25em) {
   .heading__primary {
-    font-size: 5.4rem;
+    font-size: 6.4rem;
   }
 }
 
 .heading__title {
   color: var(--clr-grey-1);
   text-align: center;
-  font-size: 3rem;
+  font-size: 3.2rem;
   letter-spacing: var(--spacing);
   margin-bottom: 6.4rem;
 }
@@ -225,6 +230,9 @@ li {
 }
 .form__form {
   display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 2rem;
   max-width: 30rem;
 }
 @media screen and (min-width: 992px) {
@@ -237,7 +245,7 @@ li {
 }
 .form__btn, .form__input {
   padding: 0.75rem 1.75rem;
-  font-size: 1.7rem;
+  font-size: 1.2rem;
   line-height: 1.5;
   font-weight: 300;
   letter-spacing: var(--spacing);
@@ -529,7 +537,7 @@ li {
   color: var(--clr-white);
 }
 .hero__text {
-  max-width: 50rem;
+  max-width: 40rem;
   margin: 1rem auto;
   font-size: 1.4rem;
   padding-top: 2rem;
